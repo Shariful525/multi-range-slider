@@ -1,20 +1,32 @@
 {
   "name": "multi-range-slider",
   "version": "1.0.0",
-  "description": " A customizable multi-range slider component for React and NextJs. This slider allows users to select a price range with two draggable sliders, featuring a gradient border and smooth real-time interaction. Perfect for filtering products based on a range, such as price.",
-  "main": "\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001bmultirange\b\b\b\b\b\b\b\b\b\b\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[ (MultiRangeSlider.js)",
+  "description": "A customizable multi-range slider component for React and NextJs.",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "type": "module",
   "scripts": {
+    "build": "rollup --config rollup.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "multi-range-slider",
     "range-slider",
-    "react-range-slider",
-    "nextjs-slider",
-    "price-filter",
-    "react-component",
-    "ui-component"
+    "react-range-slider"
   ],
-  "author": "Shariful Islam <sharifulafsar@outlook.com>",
-  "license": "ISC"
+  "author": "Shariful Islam",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.26.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.20.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
 }

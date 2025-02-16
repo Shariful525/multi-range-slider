@@ -9,6 +9,14 @@
     "build": "rollup --config rollup.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shariful525/multi-range-slider"
+  },
   "keywords": [
     "multi-range-slider",
     "range-slider",

@@ -1,0 +1,20 @@
+{
+  "name": "multi-range-slider",
+  "version": "1.0.0",
+  "description": " A customizable multi-range slider component for React and NextJs. This slider allows users to select a price range with two draggable sliders, featuring a gradient border and smooth real-time interaction. Perfect for filtering products based on a range, such as price.",
+  "main": "\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001bmultirange\b\b\b\b\b\b\b\b\b\b\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[ (MultiRangeSlider.js)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "multi-range-slider",
+    "range-slider",
+    "react-range-slider",
+    "nextjs-slider",
+    "price-filter",
+    "react-component",
+    "ui-component"
+  ],
+  "author": "Shariful Islam <sharifulafsar@outlook.com>",
+  "license": "ISC"
+}
